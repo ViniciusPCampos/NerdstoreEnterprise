@@ -1,11 +1,13 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using NSE.Core.Data;
 
 namespace NSE.Catalog.API.Data
 {
-    public class CatalogoContext : DbContext
+    public class CatalogContext : DbContext, IUnitOfWork
     {
-        public CatalogoContext(DbContextOptions<CatalogoContext> options):base(options)
+        public CatalogContext(DbContextOptions<CatalogContext> options):base(options)
         {
             
         }
@@ -18,7 +20,12 @@ namespace NSE.Catalog.API.Data
                 property.SetColumnType("varchar(100)");
             }
 
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogContext).Assembly);
+        }
+
+        public async Task<bool> Commit()
+        {
+            return await base.SaveChangesAsync() > 0;
         }
     }
 }

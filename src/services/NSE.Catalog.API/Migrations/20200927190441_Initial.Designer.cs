@@ -9,7 +9,7 @@ using NSE.Catalog.API.Data;
 
 namespace NSE.Catalog.API.Migrations
 {
-    [DbContext(typeof(CatalogoContext))]
+    [DbContext(typeof(CatalogContext))]
     [Migration("20200927190441_Initial")]
     partial class Initial
     {

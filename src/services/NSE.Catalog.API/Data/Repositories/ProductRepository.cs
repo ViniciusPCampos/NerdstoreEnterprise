@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NSE.Catalog.API.Models;
+using NSE.Core.Data;
 
 namespace NSE.Catalog.API.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly CatalogoContext _context;
+        private readonly CatalogContext _context;
 
-        public ProductRepository(CatalogoContext context)
+        public ProductRepository(CatalogContext context)
         {
             _context = context;
         }
 
+        public IUnitOfWork UnitOfWork => _context;
+        
         public void Dispose()
         {
             _context?.Dispose();

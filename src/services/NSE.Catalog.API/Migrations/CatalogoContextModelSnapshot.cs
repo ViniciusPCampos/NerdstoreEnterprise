@@ -8,7 +8,7 @@ using NSE.Catalog.API.Data;
 
 namespace NSE.Catalog.API.Migrations
 {
-    [DbContext(typeof(CatalogoContext))]
+    [DbContext(typeof(CatalogContext))]
     partial class CatalogoContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
