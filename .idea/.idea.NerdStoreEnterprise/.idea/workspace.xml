@@ -25,7 +25,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5af8b394-d946-425c-a39a-586d0d6de734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Cpf.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/DomainException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Email.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/Utils/StringUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/ApiConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/DependencyInjectionConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/SwaggerConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/IProdutoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/ProdutoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +79,18 @@
         <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/IAggregateRoot.cs" />
         <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IRepository.cs" />
         <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" />
         <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Entity.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/DomainException.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Document.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/Utils/StringUtils.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Cpf.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/ApiConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/DependencyInjectionConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/SwaggerConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Dockerfile" />
       </list>
     </option>
   </component>
@@ -91,7 +116,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Identity">
+  <component name="RunManager" selected="Docker.NSE.Identity.API/Dockerfile">
     <configuration name="Identity" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -197,6 +222,20 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="NSE.Identity.API/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="src/services/NSE.Identity.API/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.NSE.Catalog.API" />
       <item itemvalue=".NET Launch Settings Profile.NSE.Catalog.API: IIS Express" />
@@ -205,9 +244,11 @@
       <item itemvalue=".NET Launch Settings Profile.NSE.Identity.API" />
       <item itemvalue=".NET Launch Settings Profile.NSE.Identity.API: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.Identity" />
+      <item itemvalue="Docker.NSE.Identity.API/Dockerfile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.NSE.Identity.API/Dockerfile" />
         <item itemvalue=".NET Launch Settings Profile.Identity" />
       </list>
     </recent_temporary>
@@ -223,7 +264,7 @@
       <workItem from="1601579311553" duration="636000" />
       <workItem from="1601586544124" duration="869000" />
       <workItem from="1601642958854" duration="2077000" />
-      <workItem from="1601751352476" duration="19165000" />
+      <workItem from="1601751352476" duration="23683000" />
     </task>
     <servers />
   </component>

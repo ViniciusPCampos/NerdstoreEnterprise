@@ -6,9 +6,9 @@ namespace NSE.Catalog.API.Data
 {
     public class CatalogContext : DbContext, IUnitOfWork
     {
-        public Task<bool> Commit()
+        public async  Task<bool> Commit()
         {
-            throw new System.NotImplementedException();
+            return await SaveChangesAsync() > 0;
         }
     }
 }
