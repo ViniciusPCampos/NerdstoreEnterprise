@@ -25,46 +25,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5af8b394-d946-425c-a39a-586d0d6de734" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NerdStoreEnterprise.sln" beforeDir="false" afterPath="$PROJECT_DIR$/NerdStoreEnterprise.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/DomainException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Entity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/IAggregateRoot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/AppSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/CustomAuthorize.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/JwtConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/ApiConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/DependencyInjectionConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Configuration/SwaggerConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Controllers/CatalogController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/Mappings/ProductMapping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/Repositories/ProductRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Migrations/20200927190441_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Migrations/20200927190441_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Migrations/CatalogoContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Models/IProductRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Models/Product.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Clients.API/Data/ClientContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Clients.API/Data/Mappings/ClientMapping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Clients.API/Models/Address.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Clients.API/Models/Client.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Clients.API/Models/Document.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Clients.API/Models/Email.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/ApiConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/IdentityConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/AuthController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/MainController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Data/ApplicationDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Extensions/IdentityPtBRMessages.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Models/UserRegisterViewModel.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/IAggregateRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/AppSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/ClaimsAuthorizeAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/CustomAuthorization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/JwtConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/RequisitoClaimFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Controllers/CatalogController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/ApiConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/IdentityConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/SwaggerConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/AuthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/MainController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Extensions/IdentityPtBrMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Models/UserRegister.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/NSE.Customer.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Customer.API/NSE.Customer.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Customer.API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/AuthConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/ApiConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Extensions/IdentityMensagensPortugues.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/IdentityConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/SwaggerConfig.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Startup.cs" />
         <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/JwtConfig.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/CustomAuthorization.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/ClaimsAuthorizeAttribute.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/AppSettings.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/RequisitoClaimFilter.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Customer.API/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/MainController.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Models/UserRegister.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/CatalogController.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Controllers/CatalogController.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/IAggregateRoot.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IRepository.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" />
+        <option value="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Entity.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +111,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971428" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30057144" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -97,9 +121,26 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.NSE.Customer.API">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Identity">
+    <configuration name="Identity" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="NSE.Catalog.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -190,6 +231,20 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.NSE.Catalog.API" />
+      <item itemvalue=".NET Launch Settings Profile.NSE.Catalog.API: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.NSE.Customer.API" />
+      <item itemvalue=".NET Launch Settings Profile.NSE.Customer.API: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.NSE.Identity.API" />
+      <item itemvalue=".NET Launch Settings Profile.NSE.Identity.API: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Identity" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Launch Settings Profile.Identity" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -201,7 +256,8 @@
       <updated>1601579288013</updated>
       <workItem from="1601579311553" duration="636000" />
       <workItem from="1601586544124" duration="869000" />
-      <workItem from="1601642958854" duration="1988000" />
+      <workItem from="1601642958854" duration="2077000" />
+      <workItem from="1601751352476" duration="15787000" />
     </task>
     <servers />
   </component>
@@ -220,14 +276,107 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601760413338">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="320" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601760413338" />
+    <state width="1784" height="390" key="GridCell.Tab.0.bottom" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.0.bottom/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.0.center" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.0.center/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.0.left" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.0.left/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.0.right" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.0.right/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.1.bottom" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.1.bottom/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.1.center" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.1.center/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.1.left" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.1.left/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.1.right" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.1.right/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.2.bottom" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.2.bottom/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.2.center" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.2.center/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.2.left" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.2.left/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.2.right" timestamp="1601820682271">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.2.right/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682271" />
+    <state width="1784" height="390" key="GridCell.Tab.3.bottom" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.3.bottom/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.3.center" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.3.center/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.3.left" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.3.left/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.3.right" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.3.right/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.4.bottom" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.4.bottom/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.4.center" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.4.center/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.4.left" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.4.left/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
+    <state width="1784" height="390" key="GridCell.Tab.4.right" timestamp="1601820682272">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="390" key="GridCell.Tab.4.right/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601820682272" />
     <state x="141" y="275" key="Rider.ProjectTemplateDialog.Size" timestamp="1601643412695">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="141" y="275" key="Rider.ProjectTemplateDialog.Size/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601643412695" />
+    <state x="507" y="184" key="SettingsEditor" timestamp="1601821786755">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="507" y="184" key="SettingsEditor/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601821786755" />
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601823069147">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup/2013.0.1827.1080/93.0.1827.1080@93.0.1827.1080" timestamp="1601823069147" />
   </component>
 </project>
