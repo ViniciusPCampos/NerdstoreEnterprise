@@ -25,41 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5af8b394-d946-425c-a39a-586d0d6de734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/Data/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.Core/DomainObjects/IAggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/AppSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/ClaimsAuthorizeAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/CustomAuthorization.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/JwtConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Identity/RequisitoClaimFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Controllers/CatalogController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Data/CatalogContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/ApiConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/IdentityConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Configuration/SwaggerConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Controllers/MainController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Extensions/IdentityPtBrMessages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Models/UserRegister.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NerdStoreEnterprise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.Core/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Catalog.API/NSE.Catalog.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Catalog.API/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/NSE.Customer.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Customer.API/NSE.Customer.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Customer.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Customer.API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/NSE.Identity.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NSE.Identity.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NSE.Identity.API/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +223,7 @@
       <workItem from="1601579311553" duration="636000" />
       <workItem from="1601586544124" duration="869000" />
       <workItem from="1601642958854" duration="2077000" />
-      <workItem from="1601751352476" duration="15787000" />
+      <workItem from="1601751352476" duration="19165000" />
     </task>
     <servers />
   </component>
